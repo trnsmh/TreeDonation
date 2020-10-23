@@ -1,0 +1,104 @@
+.container1{
+    display:flex;
+    flex-direction:column;
+    margin:15px;
+}
+.display-1{
+    font-family:fantasy;
+    font-size:96px;
+    margin-left:25px;
+    color:red;
+    text-emphasis-color:black;
+}
+.lead{
+    font-family:fantasy;
+    text-align:right;
+    margin-right:50px;
+    color:red;
+    font-size:45px;
+
+}
+.head{
+    margin-left:25px;
+    font-family: 'Teko', sans-serif;
+    font-size:40px;
+}
+.slide{
+    margin-top:30px;
+}
+.inf{
+    background-color: rgba(255, 38, 0, 0.37);
+    font-family: 'Teko', sans-serif;    font-size:20px;
+    text-align:center;
+    margin-bottom:50px;
+}
+.breadcrumb,a{
+    background-color:red;
+    font-weight: bold;
+    color:white;
+}
+.carousel-item img{
+    width:50%;
+    margin:auto;
+    width: auto;
+    display: block;
+    }
+.carouselheader{
+    font-family:fantasy;
+    text-align:center;
+    font-size:35px;
+}
+.homerd{
+    text-align:center;
+    font-family:arial;
+    font-weight:bold;
+}
+.breadcrumb-item.active{
+    color:black;
+}
+.jumbotron{
+    background-color: rgba(255, 38, 0, 0.37);
+}
+.footer{
+    font-size:12px;
+    font-style:italic;
+    margin-top:10px;
+    scroll-margin-bottom:10px;
+    margin-left:15px;
+}
+.kind{
+    font-size:40px;
+    font-weight:bold;
+    font-family: 'Tinos', serif;
+    margin-bottom:75px;
+}
+.container .box{
+    border:10px solid rgba(255, 38, 0, 0.37);
+    margin-bottom:50px;
+    font-weight:bold;
+    font-family: 'Tinos', serif;
+    font-size: 25px;
+}
+.info{
+    font-size:12px;
+}
+.form{
+    font-size:25px;
+    margin:20px;
+    position:relative;
+    border:5px solid red;
+}
+.button{
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-weight:bold;
+    background-color:rgba(255, 38, 0, 0.37);
+}
+@media screen and (max-width:768px) {
+    .container1, img{
+        max-width:100%
+    }
+    .kind{
+        margin-left:25px;
+    }
+}
